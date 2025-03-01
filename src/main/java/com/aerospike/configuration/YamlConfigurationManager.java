@@ -12,7 +12,7 @@ import org.yaml.snakeyaml.constructor.Constructor;
 
 import com.aerospike.configuration.serializers.Configuration;
 
-public class YamlConfigurationManager extends ConfigurationManager {
+public class YamlConfigurationManager implements ConfigurationManager {
     private static final String configurationPathEnv = "CONFIGURATION_PATH";
     private static final String configurationPathProp = "configuration.path";
     private static final String yamlSerializersPath = "com.aerospike.configuration.serializers.";
