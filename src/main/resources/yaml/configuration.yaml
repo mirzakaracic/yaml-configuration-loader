@@ -1,0 +1,8 @@
+static:
+  write:
+    durable_delete: true
+dynamic:
+  timeout:
+    connection_timeout: 1000
+    socket_timeout: 5
+    total_timeout: 10
